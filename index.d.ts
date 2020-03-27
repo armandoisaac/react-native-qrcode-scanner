@@ -55,6 +55,7 @@ export interface RNQRCodeScannerProps {
   customMarker?: JSX.Element;
   containerStyle?: StyleProp<ViewStyle>;
   cameraStyle?: StyleProp<ViewStyle>;
+  cameraContainerStyle?: StyleProp<ViewStyle>;
   markerStyle?: StyleProp<ViewStyle>;
   topViewStyle?: StyleProp<ViewStyle>;
   bottomViewStyle?: StyleProp<ViewStyle>;
